@@ -1,0 +1,49 @@
+*{
+  background-color: #1f2937;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-around;
+}
+
+#logo {
+  height: 50px;
+  padding: 0;
+  margin: 0;    
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer {
+  margin-top: auto;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+.header_links{
+  color: #e5e7eb;
+  font-size: 18px;
+}
