@@ -14,7 +14,8 @@
 .white,
 .grey,
 .whiteTwo,
-.blueTwo {
+.blueTwo,
+.greyTwo {
   display: flex;
 }
 
@@ -26,12 +27,19 @@
 .containerSecond,
 .containerThird,
 .containerFourth,
-.containerFifth {
+.containerFifth,
+.containerSixth {
   display: flex;
   flex-direction: column;
-  min-height: 50vh;
   width: 70%;
   margin: auto;
+}
+
+.containerFirst,
+.containerSecond,
+.containerFourth,
+.containerFifth {
+  min-height: 50vh;
 }
 
 .header {
@@ -53,7 +61,7 @@
 .footer {
   color: #e5e7eb;
   font-size: 18px;
-  padding: 48px;
+  padding: 32px;
 }
 
 ul {
@@ -146,7 +154,8 @@ a {
   margin-bottom: 42px;
 }
 
-.grey {
+.grey,
+.greyTwo {
   background-color: #e5e7eb;
 }
 
@@ -167,10 +176,6 @@ a {
   display: flex;
   justify-content: flex-end;
   font-size: 18px;
-}
-
-.whiteTwo {
-  min-height: 20vh;
 }
 
 .containerFourth {
@@ -208,7 +213,7 @@ a {
   font-weight: bold;
 }
 
-.containerFifth {
+.containerSixth {
   justify-content: center;
   align-items: center;
   min-height: 5vh;
@@ -217,4 +222,23 @@ a {
 .blueTwo {
   margin-top: auto;
   background-color: #1f2937;
+}
+
+.greyTwo,
+.blueTwo {
+  justify-content: center;
+  align-items: center;
+}
+
+.containerFifth {
+  align-items: center;
+  justify-content: center;
+}
+
+.memeCon {
+  display: flex;
+  align-self: flex-start;
+  margin: 32px;
+  font-size: 36px;
+  font-weight: bolder;
 }
