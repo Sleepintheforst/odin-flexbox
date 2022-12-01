@@ -1,7 +1,7 @@
 # Landing Page
 
 ## Links
-[Try My Landing Page Here!](https://sleepintheforst.github.io/odin-flexbox/)
+[Try My Landing Page Here!](https://glavevy.github.io/odin-flexbox/)
 
 ## About
 My second TOP project to test my flexbox knowledge.
